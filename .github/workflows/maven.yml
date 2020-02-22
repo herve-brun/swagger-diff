@@ -21,8 +21,10 @@ jobs:
         path: ~/.m2
         key: ${{ runner.os }}-m2-${{ hashFiles('**/pom.xml') }}
         restore-keys: ${{ runner.os }}-m2
+    - name: Current branch name
+      uses: ypicard/get-branch-name-github-action@v1
     - name: Build with Maven
-      run: mvn -B -ntp verify --file pom.xml org.sonarsource.scanner.maven:sonar-maven-plugin:3.6.0.1398:sonar -Dsonar.projectKey=$SONAR_PROJECTKEY -Dsonar.organization=$SONAR_ORGANIZATION -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=${{secrets.SONAR_TOKEN}}
+      run: mvn -B -ntp verify --file pom.xml org.sonarsource.scanner.maven:sonar-maven-plugin:3.6.0.1398:sonar -Dsonar.projectKey=$SONAR_PROJECTKEY -Dsonar.organization=$SONAR_ORGANIZATION -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=${{secrets.SONAR_TOKEN}} -Dsonar.branch.name=$branch
       env:
         SONAR_PROJECTKEY: "herve-brun_swagger-diff"
         SONAR_ORGANIZATION: "herve-brun"

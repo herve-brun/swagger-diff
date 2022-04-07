@@ -8,9 +8,11 @@
 
 ## Reporting a Vulnerability
 
-Report vulnerabilities here : https://github.com/herve-brun/swagger-diff/issues/new
+Security advisories for this library are published here : https://github.com/herve-brun/swagger-diff/security/advisories
 
-Please use the [security](https://github.com/herve-brun/swagger-diff/labels/security) label.
+Please report any vulnerability you may find in this library here : https://github.com/herve-brun/swagger-diff/issues/new
+
+Make sure the [security](https://github.com/herve-brun/swagger-diff/labels/security) label.
 
 Any pull request is very welcome, please don't hesitate :)
 

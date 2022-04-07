@@ -10,7 +10,7 @@
 
 Security advisories for this library are published here : https://github.com/herve-brun/swagger-diff/security/advisories
 
-Please report any vulnerabilities here : https://github.com/herve-brun/swagger-diff/issues/new
+Please report vulnerabilities here : https://github.com/herve-brun/swagger-diff/issues/new
 
 Make sure to use the [security](https://github.com/herve-brun/swagger-diff/labels/security) label.
 

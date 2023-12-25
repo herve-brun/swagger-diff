@@ -108,7 +108,7 @@
 							<target>1.8</target>
 							<encoding>UTF-8</encoding>
 						</configuration>
-						<version>3.11.0</version>
+						<version>3.12.1</version>
 					</plugin>
 					<!-- Source -->
 					<plugin>
@@ -191,7 +191,7 @@
 					<target>1.8</target>
 					<encoding>UTF-8</encoding>
 				</configuration>
-				<version>3.11.0</version>
+				<version>3.12.1</version>
 			</plugin>
 			<plugin>
 				<groupId>org.jacoco</groupId>

@@ -42,7 +42,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<swagger-parser.version>1.0.67</swagger-parser.version>
+		<swagger-parser.version>1.0.68</swagger-parser.version>
 	</properties>
 
 	<distributionManagement>
@@ -179,7 +179,7 @@
 		        <plugin>
 					<groupId>org.jacoco</groupId>
 					<artifactId>jacoco-maven-plugin</artifactId>
-					<version>0.8.8</version>
+					<version>0.8.14</version>
 		        </plugin>
 			</plugins>
 		</pluginManagement>
